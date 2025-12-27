@@ -1,0 +1,58 @@
+body {
+    font: 16px/45px "Mircrosoft YaHei"
+}
+
+h1 {
+    /* 文字不加粗 */
+    font-weight: 400;
+    /* 水平居中对齐 */
+    text-align: center
+}
+
+.gray {
+    color: #888888;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.search {
+    color: #666666;
+    width: 171px;
+}
+
+.button {
+    font-weight: 700;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.footer {
+    text-align: right;
+    color: #888888;
+}
+
+a:link {
+    color: #666666;
+    text-decoration: none;
+    /* 为访问过的链接 */
+}
+
+a:visited {
+    color: orange;
+    /* 访问后变成橙色 */
+}
+
+a:hover {
+    color: skyblue;
+    /* 鼠标放上去后变色 */
+}
+
+a:active {
+    color: red;
+    /* 鼠标按着褪色 */
+}

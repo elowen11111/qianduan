@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>列表</title>
+    <style>
+        input:focus {
+            background-color: #f0f0f0;
+        }
+
+        .score {
+            border: 1px solid blue;
+            background-color: #f7f7f7;
+            color: #35292b;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        .information {
+            border: 1px solid rgb(98, 175, 137);
+            text-align: center;
+            border-collapse: collapse;
+            font-size: 16px;
+            background-color: black;
+            color: #f1f1f1;
+        }
+
+        .cadillac {
+            border: 1px solid rgba(28, 71, 163, 0.632);
+            background-color: #f1f1f1;
+            border-collapse: collapse;
+            text-align: center;
+            color: black;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        ol {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>无序列表1</li>
+        <li>无序列表2</li>
+        <li>无序列表3</li>
+        <li>无序列表4</li>
+        <li>无序列表5</li>
+    </ul>
+    <hr>
+    <ol>
+        <li>有序列表1</li>
+        <li>有序列表2</li>
+        <li>有序列表3</li>
+        <li>有序列表4</li>
+        <li>有序列表5</li>
+        <li>有序列表6</li>
+    </ol>
+    <hr>
+    <dl>
+        <dt>标题1</dt>
+        <dd>内容1</dd>
+        <dt>标题2</dt>
+        <dd>内容2</dd>
+    </dl>
+    <hr>
+    <table border="1" align="right" cellspacing="0" class="information">
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>学校</th>
+                <th>班级</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>小豪</td>
+                <td>广州大学附属东江中学</td>
+                <td>12 18</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>小森</td>
+                <td>广东技术师范学院</td>
+                <td>25计师</td>
+            </tr>
+        </tfoot>
+    </table>
+    <table border="1" align="lesf" cellspacing="0" class="score">
+        <thead>
+            <tr>
+                <td>姓名</td>
+                <td>计算机组成原理</td>
+                <td>操作系统</td>
+                <td>数据结构与算法</td>
+                <td>计算机网络</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>小明</td>
+                <td colspan="4">100 </td>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>小红</td>
+                <td colspan="4">98</td>
+
+            </tr>
+        </tfoot>
+    </table>
+    <table border="1" align="center" cellpadding="20" cellspacing="0" class="cadillac">
+        <tr>
+            <th>ct4</th>
+            <th>ct5</th>
+            <th>ct6</th>
+        </tr>
+        <tr>
+            <td>20-30</td>
+            <td>30-40</td>
+            <td>40~</td>
+        </tr>
+    </table>
+    <form action="梅赛德斯奔驰.html" method="POST" name="姓名">
+        <label for="text">用户名：</label><input type="text" name="username" value="请输入用户名" id="text"><br />
+        密码：<input type="password" name="password" maxlength="6"><br />
+        性别：男<input type="radio" name="sex" value="男"> 女<input type="radio" name="sex" value="女"><br />
+        年级：大一<input type="checkbox" value="大一"> 大二<input type="checkbox" value="大二">大三<input type="checkbox"
+            value="大三">大四<input type="checkbox" value="大四">
+        <br /><input type="checkbox" checked="checked">我同意<a href="表单后台.html">注册条款</a>和会员加入标准
+        <br /><input type="submit" value="登录">
+        <input type="reset"><br />
+        <input type="button" value="获取短信验证码"><br />
+        <input type="file">
+        <input type="image"><br />
+        <!-- 这是重置里面的内容 -->
+        编程语言：
+        <select>
+            <option>C</option>
+            <option>C++</option>
+            <option>python</option>
+            <option selected="selected">java</option>
+            <option>c#</option>
+            <option>go</option>
+            <option>rust</option>
+            <option>javascript</option>
+        </select cols="50" rows="5">
+        <br />请简短的自我介绍一下
+        <textarea>我是....
+        </textarea>
+
+    </form>
+</body>
+
+</html>
